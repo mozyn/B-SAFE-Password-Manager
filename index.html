@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <meta charset="utf-8">
+    <!--Coded with <3 by Mohamed Al-Omairi & Ahmed Almoamen // With help from https://w3collective.com/random-password-generator-javascript/ and https://www.websparrow.org/web/how-to-create-and-save-text-file-in-javascript-->
+    <title>
+      B-Safe
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <img class = "logo" src = "text.gif" alt="Be Safe!">
+  </head>
+  <body>
+    
+    <img class = "ygo" src = "favicon.ico" alt="Go to the Shadow Realm!">
+    <br>
+    <div id="Password Manager/Generator">
+      <input type="text" id="password" /> 
+      <button id="copy">Copy Password</button>
+      <button id="generate">Generate Password</button>
+       <button type="button" onclick="savePasswordtoTxt();">Click to Save</button>
+      <div id="settings">
+        <br>
+        <label for="length">Length</label>
+        <input class = "length_Box" type="number" id="length" value="8" min="8" max="64" />    
+        <label for="digits">Include Numbers</label>
+        <input type="checkbox" id="digits" checked />
+        <label for="specialChars">Include Symbols</label>
+        <input type="checkbox"  id="specialChars" checked />
+      </div>
+      <br>
+    </div>
+<script src = "script.js"> </script>
+
+<!-- File Saver Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+
+
+<script>
+function savePasswordtoTxt() { 
+  
+  //does not work on empty text field
+  if (password.value != "") { 
+   var siteName = prompt("What is this password for?");
+    if (siteName === null) {
+        return; //break out of the function early
+    }
+    else if (siteName === "") { 
+      alert("You must enter a name for the password file!");
+      return; 
+    }
+  var blob = new Blob([password.value],
+                { type: "text/plain;charset=utf-8" });
+  saveAs(blob, siteName + "_password.txt");
+  }
+  else { 
+    alert("Empty password!");
+  }
+}
+</script>
+
+
+
+
+
+
+</body>
+
