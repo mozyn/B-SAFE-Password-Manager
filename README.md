@@ -1,4 +1,4 @@
-# B/SAFE Password Creator v2.0
+# B/SAFE Password Creator v2.0 **** 🔐
 
 Creates, stores, and strenghtens passwords!
  
