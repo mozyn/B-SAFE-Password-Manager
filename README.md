@@ -5,6 +5,8 @@ Creates, stores, and strenghtens passwords!
 ********************** 
 INTRODUCING VERSION 2.0!
 
+https://mozyn.github.io/B-SAFE-Password-Manager/
+
 A visual overhaul to the original release with some code cleanup and new features. 
 **********************
 v2.0 notes -- 
