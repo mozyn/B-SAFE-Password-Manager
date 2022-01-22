@@ -1,9 +1,10 @@
-#B/SAFE Password Creator v2.0
+#BSAFE Password Creator v2.0
 
 Creates, stores, and strenghtens passwords!
  
 ********************** 
 INTRODUCING VERSION 2.0!
+
 A visual overhaul to the original release with some code cleanup and new features. 
 **********************
 v2.0 notes -- 
