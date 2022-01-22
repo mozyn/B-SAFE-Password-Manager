@@ -1,0 +1,156 @@
+#logo { 
+ position: relative;
+ margin-top: -25%;
+ padding: 20px;
+ cursor: pointer;
+}
+
+
+.ygo { 
+ display: none;
+ position: relative;
+ left: 300px;
+ top: 28px;
+}
+
+body{
+  background-image: url('https://giffiles.alphacoders.com/214/214384.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #5148cd;
+  text-align: center;
+  max-width: max-content;
+  margin: auto;
+  position: relative;
+  margin-top: 10%;
+  margin-left:auto;
+  margin-right:auto;
+  font-family: -apple-system;
+}
+
+#copy{
+background-image: url("https://img.icons8.com/pastel-glyph/256/ffffff/copy--v1.png");
+background-size: 26px;
+background-position:center;
+background-repeat: no-repeat;
+color:transparent;
+width: 9%;
+}
+
+#generate{
+background-image: url("https://img.icons8.com/external-kmg-design-detailed-outline-kmg-design/512/ffffff/external-refresh-arrow-kmg-design-detailed-outline-kmg-design.png");
+background-size: 26px;
+background-position:center;
+background-repeat: no-repeat;
+color:transparent;
+width: 9%;
+}
+
+#password{
+  border-radius: 10px;
+  font-size: 26px;
+  border:outset;
+  border-bottom-color: #242527;
+  border-right-color: #242527;
+  border-top-color: #767676;
+  border-left-color: #767676;
+  border-width:2px;
+  font-family:'Anaheim';
+}
+
+#save{
+  background-image:url("https://img.icons8.com/ios/256/ffffff/save--v1.png");
+background-size: 30px;
+background-position:center;
+background-repeat: no-repeat;
+color:transparent;
+width: 9%;
+}
+
+label{
+font-size: 26px;
+color:#672fb5;
+font-family: 'Anaheim';
+text-shadow:1px 1px 1px white;
+}
+
+button { 
+  font-family: 'Anaheim';
+  background-color: #672fb5;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 25px;
+  color:white;
+  font-weight:bolder;
+  
+}
+
+.length_Box { 
+  width: 45px;
+  border-radius: 10px;
+  font-size: 22px;
+  border:outset;
+  border-bottom-color: #242527;
+  border-right-color: #242527;
+  border-top-color: #767676;
+  border-left-color: #767676;
+  border-width:2px;
+  font-family: 'Anaheim';
+}
+
+.check {
+  transform: scale(2);
+  margin: 0 10px 0;
+}
+
+ .passwordInput{
+  border-radius: 10px;
+  font-size: 26px;
+  border:outset;
+  border-bottom-color: #242527;
+  border-right-color: #242527;
+  border-top-color: #767676;
+  border-left-color: #767676;
+  border-width:2px;
+  margin-top: 5%; 
+  text-align :left;
+  width: 575px;
+  font-family: 'Anaheim';
+  font-weight:bolder;
+}
+
+.displayBadge{
+      margin-top: 1%; 
+       margin-left:4%;
+      display: none; 
+      text-align :center;
+      border: solid;
+      border-radius: 10px;
+      border-color:#672fb5;
+      color: white;
+      font-family: 'Anaheim';
+      font-weight:bolder;     
+}
+
+#song{
+background-image: url(https://img.icons8.com/external-icongeek26-glyph-icongeek26/264/ffffff/external-music-notes-music-icongeek26-glyph-icongeek26.png);
+background-repeat: no-repeat;
+background-size: 30px;
+position: fixed;
+right: 0;
+top: 0;
+background-position:center;
+color:transparent;
+width: 3%;
+}
+
+#togglePassword {
+    position:relative;
+    top:-4px;
+    margin-left: -30px;
+    cursor: pointer;
+    color: black;
+}
+
+
+.title {color: #662EB5;}

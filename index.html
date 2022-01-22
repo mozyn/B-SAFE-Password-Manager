@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+<link href='https://fonts.googleapis.com/css?family=Anaheim' rel='stylesheet'>
+ <meta name="theme-color" content="#7b96ef" />
+  <meta charset="utf-8">
+    <!--Coded with <3 by Mohamed Al-Omairi & Ahmed Almoamen-->
+    <title>
+      B/Safe
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+   
+    <link rel="icon" href="favicon.ico">
+  
+
+
+ <img id="logo" src = "bsafe_logo.png" alt = "b-safe logo" <a href= "#" onclick="window.open('https://github.com/mozyn'); window.open('https://github.com/almoamenahmed');"
+    </a>
+
+  </head>
+  <body>
+    <img class = "ygo" src = "favicon.ico" alt="Go to the Shadow Realm!">
+
+<audio id = "lofi" autoplay >
+  <source src="lofi.mp3" type="audio/mp3">
+</audio>
+
+<button onclick = "playPauseAudio()" id="song" title ="Mute/Unmute"> Music</button>
+
+    <br>
+    <div class="Password-Generator">
+      <input type="text" id="password" size="25"/> 
+       <button id="generate" title="Generate" >Generate </button>
+      <button id="copy" title="Copy" >Copy</button>
+       <button class="tooltip" id = "save" type="button" onclick="savePasswordtoTxt();" title="Save">Save</button>
+      <div id="settings">
+        <br>
+        <label for="length">Length</label>
+        <input  class = "length_Box" type="number" id="length" value="8" min="8" max="20"   />    
+        <label for="digits">Include Numbers</label>
+        <input class = "check" type="checkbox" id="digits" checked />
+        <label for="specialChars">Include Symbols</label>
+        <input class = "check" type="checkbox"  id="specialChars" checked />
+        
+      </div>
+      <br>
+    </div>
+
+<!--Bootstrap -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+
+<!-- File Saver Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+
+
+</body>
+
+ <div class="Password-Strength-Evaluation"> 
+   
+        <input type="password" placeholder="Test your password strength 💪" id="userPassword"
+         class="form-control passwordInput" maxlength="20"/> 
+
+        <i class="bi bi-eye-slash" onclick="showPass()" id="togglePassword"></i>
+        <span id="StrengthDisp" class="badge displayBadge">Weak</span>
+</div>
+
+<script src = "script.js"> </script>
+
+
+
+
+
+
+
+    </html>
+
+
+
